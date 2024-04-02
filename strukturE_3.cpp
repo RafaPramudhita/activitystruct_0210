@@ -21,5 +21,23 @@ int main() {
 	cout << "Nama Mahasiswa :";
 	getline(cin,mhs.nama);
 	
-    
+
+	cout << "Alamat Mahasiswa :";
+	cout << "\t Nama Desa :";
+	cin >> mhs.alamat.desa;
+	
+	cout << "\t Kota Mahasiswa :";
+	cin >> mhs.alamat.kota;
+	
+
+	cout << "Umur Mahasiswa :";
+	cin >> mhs.umur;
+
+	cout << endl;
+	cout << "\n NIM :" << mhs.nim;
+	cout << "\n Nama :" << mhs.nama;
+	cout << "\n Alamat :" << endl;
+	cout << "\t \n Desa :" << mhs.alamat.desa;
+	cout << "\t \n Kota :" << mhs.alamat.kota;
+	cout << "\n Umur :" << mhs.umur;
 }
